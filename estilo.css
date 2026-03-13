@@ -1,0 +1,152 @@
+/* Zera margens e paddings para tirar os espaços em cima e na lateral esquerda */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY: truque do sticky footer (PASSO Rodapé Fujão) */
+body {
+    min-height: 100vh;              /* ocupa pelo menos a altura da tela */
+    display: flex;
+    flex-direction: column;         /* footer fica abaixo da dashboard-container */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e5e7eb;      /* cinza claro de fundo */
+}
+
+/* DASHBOARD-CONTAINER: Pai do nav + main (PASSO 1 e 2) */
+.dashboard-container {
+    flex: 1;                        /* ocupa todo o espaço disponível, empurrando o footer pra baixo */
+    display: flex;                  /* Pai usando Flexbox: nav + main lado a lado */
+}
+
+/* SIDEBAR (nav) - PASSO 3: transformar menu em barra lateral */
+.sidebar {
+    width: 250px;
+    background-color: #111827;      /* barra escura */
+    color: #f9fafb;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;         /* para podermos jogar o user-profile para baixo com margin-top:auto */
+}
+
+/* Logo / título do sistema */
+.sidebar .logo {
+    margin-bottom: 20px;
+}
+
+/* Lista do menu - vertical */
+.sidebar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;                      /* espaçamento entre os itens */
+}
+
+/* Links do menu */
+.sidebar ul li a {
+    text-decoration: none;
+    color: #e5e7eb;
+    padding: 10px 12px;
+    border-radius: 4px;
+    display: block;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #1f2937;      /* fundo um pouco mais claro */
+    transform: translateX(2px);     /* mexe um pouco pra direita ao passar o mouse */
+}
+
+/* Perfil do Usuário - PASSO 4 (margin-top: auto) */
+.user-profile {
+    margin-top: auto;               /* empurra este bloco para o rodapé do menu */
+    padding-top: 20px;
+    border-top: 1px solid #374151;
+    font-size: 0.9rem;
+}
+
+.user-profile p {
+    color: #9ca3af;
+}
+
+/* MAIN - área de conteúdo */
+main {
+    flex: 1;                        /* ocupa todo o espaço que sobrar ao lado do nav */
+    padding: 24px;
+    display: flex;                  /* para centralizar a section se quiser */
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* SECTION que contém os cards - PASSO 5 */
+.container-cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;                /* quebra linha se não couber tudo */
+    gap: 20px;                      /* espaço entre os cards */
+    align-items: stretch;           /* deixa os cards com alturas alinhadas */
+}
+
+/* ARTICLE: cada card de notícia/produto */
+.container-cards article {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 16px 16px 20px;
+    box-shadow: 0 2px 6px rgba(15, 23, 42, 0.15);
+    
+    flex: 1 1 250px;                /* largura mínima de 250px, mas cresce conforme o espaço */
+    
+    display: flex;                  /* para alinhar texto + botão */
+    flex-direction: column;         /* conteúdo em coluna */
+}
+
+.container-cards article h3 {
+    margin-bottom: 8px;
+    color: #111827;
+}
+
+.container-cards article p {
+    margin-bottom: 12px;
+    color: #4b5563;
+}
+
+/* BOTÃO Acessar - PASSO 7 */
+.btn {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 4px;
+    background-color: #2563eb;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    transition: background 0.2s, transform 0.1s;
+    
+    margin-top: auto;               /* empurra o botão para a parte de baixo do card */
+    align-self: flex-start;         /* se quiser o botão alinhado à esquerda dentro do card */
+}
+
+/* Se quiser o botão centralizado dentro do card:
+.container-cards article {
+    align-items: center;
+}
+.btn {
+    align-self: center;
+}
+*/
+
+.btn:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-1px);
+}
+
+/* FOOTER - PASSO 6 (sticky lá embaixo) */
+footer {
+    background-color: #030712;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 0.85rem;
+}
