@@ -32,7 +32,7 @@
                     <td>eric@unifev.edu.br</td>
                     <td>Admistrador</td>
                     <td><span class="badge ativo">Ativo</span></td>
-                    <td>Editar</td>
+                    <td><button class="btn-icon"> <i class="fa-solid fa-pen"> </i>></button> </td>
                 </tr>
                 <tr>
                     <td>02</td>
