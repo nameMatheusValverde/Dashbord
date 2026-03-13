@@ -1,4 +1,13 @@
-<main>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main>
     <div class = "header-conte">
         <h2>Gestão de Usuário</h2>
         <p>Visualise e gerencie as permições dos usuários do sistema.</p>
@@ -37,3 +46,5 @@
         <table>
     </div>
 </main>
+</body>
+</html>
