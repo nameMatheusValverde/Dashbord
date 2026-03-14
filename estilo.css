@@ -8,7 +8,7 @@
 main {
     flex: 1;
     padding: 30px;
-    background: #e4e4e4;
+    background: #f8f9fa;
 }
 
 nav {
@@ -20,7 +20,7 @@ nav {
     flex-direction: column;
 }
 
-nav-ul{
+nav ul{
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -28,13 +28,16 @@ nav-ul{
     list-style: none;
 }
 
-nav-a {
+nav a {
     color: white;
     text-decoration: none;
     display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background o.3s;
 }
 
-nav-a:hover {
+nav a:hover {
     background-color: #34495e;
     color: #ffcc00;
     display: block;
@@ -61,4 +64,45 @@ nav a:hover {
 .perfil-usuario img {
     width: 40px;
     border-radius: 50%;
+}
+
+.container-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+article {
+    flex: 1;
+    min-width: 250px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: o 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #004a8d;
+    margin-bottom: 20px;
+}
+
+article p {
+    margin-bottom:20px;
+    color: #555;
+}
+
+body {
+    background-color: #dfdfdf;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #333;
+    text-align: white;
+    padding: center;
+    font-size: 14px ;
 }

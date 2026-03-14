@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banco de dados</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+
     <div class="dashboard-container">
         <nav>
             <ul>
@@ -15,11 +16,36 @@
                 <li><a href="#">Relatórios</a></li>
                 <li><a href="#">Configurações</a></li>
             </ul>
-            <div>
+            <div class="perfil-usuario ">
                 <img src="https://ui-avatars.com/api/?name=Eric+freitas&background=008080&color=fff" alt="Avatar">
                 <span>Atirador Valverde °36</span>
             </div>
         </nav>
+
+        <main>
+            <select class="container-card">
+                <article>
+                    <h2>Módulos de Usuários</h2>
+                    <p>Gerenciador de acessos e permissões do sistema nesta área.</p>
+                    <a href="#" class="btn">Acessar</a>
+                </article>
+                <article>
+                    <h2>Módulos de Usuários</h2>
+                    <p>Gerenciador de acessos e permissões do sistema nesta área.</p>
+                    <a href="#" class="btn">Acessar</a>
+                </article>
+                <article>
+                    <h2>Módulos de Usuários</h2>
+                    <p>Gerenciador de acessos e permissões do sistema nesta área.</p>
+                    <a href="#" class="btn">Acessar</a>
+                </article>
+            </select>
+        </main>
     </div>
+
+    <footer>
+        <p>&copy; <?php echo date('Y'); ?> - Desenvolvido por Matheus valverde</p>
+    </footer>
+
 </body>
 </html>
