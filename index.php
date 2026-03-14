@@ -23,23 +23,26 @@
         </nav>
 
         <main>
-            <select class="container-card">
+            <section class="container-card">
+
                 <article>
-                    <h2>Módulos de Usuários</h2>
-                    <p>Gerenciador de acessos e permissões do sistema nesta área.</p>
+                    <h2>Módulo de Usuários</h2>
+                    <p>Gerenciador os acessos e permissões do sistema nesta área;</p>
                     <a href="#" class="btn">Acessar</a>
                 </article>
+
                 <article>
-                    <h2>Módulos de Usuários</h2>
-                    <p>Gerenciador de acessos e permissões do sistema nesta área.</p>
+                    <h2>Módulo de Usuários</h2>
+                    <p>Gerenciador os acessos e permissões do sistema nesta área;</p>
                     <a href="#" class="btn">Acessar</a>
                 </article>
+
                 <article>
-                    <h2>Módulos de Usuários</h2>
-                    <p>Gerenciador de acessos e permissões do sistema nesta área.</p>
+                    <h2>Módulo de Usuários</h2>
+                    <p>Gerenciador os acessos e permissões do sistema nesta área;</p>
                     <a href="#" class="btn">Acessar</a>
                 </article>
-            </select>
+            </section>
         </main>
     </div>
 

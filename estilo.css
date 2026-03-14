@@ -102,7 +102,29 @@ body {
 
 footer {
     background-color: #333;
-    text-align: white;
-    padding: center;
+    color: white;
+    text-align: center;
+    padding: 15px;
     font-size: 14px ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    margin-top: auto;
+    display: inline-block;
+    text-align: center;
+    background-color: #004a8d;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #003366;
 }
