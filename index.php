@@ -13,7 +13,7 @@
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="usuario.php">Usuario</a></li>
-                <li><a href="#">Projetos</a></li>
+                <li><a href="cad-usuarios.php">Projetos</a></li>
                 <li><a href="#">Relatórios</a></li>
                 <li><a href="#">Configurações</a></li>
             </ul>
