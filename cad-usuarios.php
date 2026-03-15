@@ -61,8 +61,8 @@
                         </div>
 
                         <div class="form-actions">
-                            <button class="btn-save" type="submit"><i class="fa-solid fa-check"></i>Finalizar Cadastro</button>
-                            <a class="btn-cancel" href="index.php" role="button"><i class="fa-solid fa-times"></i> Cancelar</a>
+                            <button class="btn-save" type="submit"><i class="fa-solid fa-check"></i> Finalizar Cadastro</button>
+                            <a class="btn-cancel" href="index.php" role="button">cancelar</a>
                         </div>
 
                         
