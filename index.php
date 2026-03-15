@@ -7,21 +7,8 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-
     <div class="dashboard-container">
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="usuario.php">Usuario</a></li>
-                <li><a href="cad-usuarios.php">Projetos</a></li>
-                <li><a href="#">Relatórios</a></li>
-                <li><a href="#">Configurações</a></li>
-            </ul>
-            <div class="perfil-usuario ">
-                <img src="https://ui-avatars.com/api/?name=Eric+freitas&background=008080&color=fff" alt="Avatar">
-                <span>Atirador Valverde °36</span>
-            </div>
-        </nav>
+        <?php include 'menu.php'; ?>
 
         <main>
             <section class="container-card">
@@ -46,10 +33,8 @@
             </section>
         </main>
     </div>
-
     <footer>
-        <p>&copy; <?php echo date('Y'); ?> - Desenvolvido na aula de web I</p>
+        <?php include 'footer.php'; ?>
     </footer>
-
 </body>
 </html>

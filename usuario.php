@@ -8,24 +8,12 @@
     <link rel="stylesheet" href="usuario.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body>
-
-        <div class="dashboard-container">
-            <nav>
-                <ul>
-                    <li><a href="index.php">Inicio</a></li>
-                    <li><a href="usuario.php">Usuario</a></li>
-                    <li><a href="cad-usuarios.php">Projetos</a></li>
-                    <li><a href="#">Relatórios</a></li>
-                    <li><a href="#">Configurações</a></li>
-                </ul>
-                <div class="perfil-usuario ">
-                    <img src="https://ui-avatars.com/api/?name=Eric+freitas&background=008080&color=fff" alt="Avatar">
-                    <span>Atirador Valverde °36</span>
-                </div>
-            </nav>
-    
+<body> 
+    <div class="dashboard-container">
+        <?php include 'menu.php'; ?>
+        
         <main>
+            
             <div class="header-content">
                 <h2>Gestão de Usuário</h2>
                 <p>Visualizar e gerenciar as permições de usuário do sistema</p>
@@ -65,11 +53,12 @@
                     </tbody>
                 </table>
             </div>
-        </main>
+        </main> 
     </div>
 
-    <footer>
-        <p>&copy; <?php echo date('Y'); ?> - Desenvolvido na aula de web I</p>
-    </footer>
+<footer>
+    <?php include'footer.php';?>
+</footer>
+    
 </body>
 </html>
