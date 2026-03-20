@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="dash.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
     <div class="dashboard-container">
         <?php include 'menu.php'; ?>
@@ -18,7 +20,7 @@
                     <h2><i class="fa-solid fa-user-plus"></i> Novo Usuário</h2>
                     <p>Preencha os dados abaixo para registrar um novo acesso.</p>
                 </div>
-                
+
                 <form action="processar.php" method="POST">
                     <div class="form-group">
                         <label for="nome">Nome completo</label>
@@ -46,18 +48,20 @@
                     </div>
 
                     <div class="form-actions">
-                        <button class="btn-save" type="submit"><i class="fa-solid fa-check"></i> Finalizar Cadastro</button>
+                        <button class="btn-save" type="submit"><i class="fa-solid fa-check"></i> Finalizar
+                            Cadastro</button>
                         <a class="btn-cancel" href="index.php" role="button">cancelar</a>
                     </div>
 
-                        
+
                 </form>
             </section>
         </main>
     </div>
-<footer>
-    <?php include 'footer.php'; ?>
-</footer>
-    
+    <footer>
+        <?php include 'footer.php'; ?>
+    </footer>
+
 </body>
+
 </html>

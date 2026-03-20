@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,13 @@
     <link rel="stylesheet" href="usuario.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body> 
+
+<body>
     <div class="dashboard-container">
         <?php include 'menu.php'; ?>
-        
+
         <main>
-            
+
             <div class="header-content">
                 <h2>Gestão de Usuário</h2>
                 <p>Visualizar e gerenciar as permições de usuário do sistema</p>
@@ -41,7 +43,7 @@
                             <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button></td>
                         </tr>
                         <tr>
-                            <tr>
+                        <tr>
                             <td>02</td>
                             <td>Nelsom das oliveiras</td>
                             <td>Nelsom.oliveiras@gmail.com</td>
@@ -53,12 +55,13 @@
                     </tbody>
                 </table>
             </div>
-        </main> 
+        </main>
     </div>
 
-<footer>
-    <?php include'footer.php';?>
-</footer>
-    
+    <footer>
+        <?php include 'footer.php'; ?>
+    </footer>
+
 </body>
+
 </html>
