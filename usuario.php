@@ -8,17 +8,24 @@
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="usuario.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 
 <body>
+    <header>
+
+    </header>
     <div class="dashboard-container">
         <?php include 'menu.php'; ?>
-
         <main>
 
             <div class="header-content">
-                <h2>Gestão de Usuário</h2>
-                <p>Visualizar e gerenciar as permições de usuário do sistema</p>
+                <div>
+                    <h2>Gestão de Usuário</h2>
+                    <p>Visualizar e gerenciar as permições de usuário do sistema</p>
+                </div>
+
+                <a href="cad-usuarios.php" class="btn-add">adicionar usuario <i class="fa-solid fa-plus"></i></a>
             </div>
 
             <div class="table-responsive">
@@ -30,7 +37,7 @@
                             <th>E-mail</th>
                             <th>Acesso</th>
                             <th>Status</th>
-                            <th>Açoes</th>
+                            <th>Ações</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -40,7 +47,7 @@
                             <td>122948@unifev.edu.br</td>
                             <td>Adiministrador</td>
                             <td><span class="badge Ativo"></span>Ativo</td>
-                            <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button></td>
+                            <td><button class="btn-icon">&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-pen"></i></button></td>
                         </tr>
                         <tr>
                         <tr>
@@ -49,7 +56,7 @@
                             <td>Nelsom.oliveiras@gmail.com</td>
                             <td>Editor</td>
                             <td><span class="badge Ativo"></span>Ativo</td>
-                            <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></button></td>
+                            <td><button class="btn-icon">&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-pen"></i></button></td>
                         </tr>
                         </tr>
                     </tbody>
@@ -61,7 +68,6 @@
     <footer>
         <?php include 'footer.php'; ?>
     </footer>
-
 </body>
 
 </html>

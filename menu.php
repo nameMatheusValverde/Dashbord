@@ -7,7 +7,7 @@
         <li><a href="#">Configurações</a></li>
     </ul>
     <div class="perfil-usuario ">
-        <img src="https://ui-avatars.com/api/?name=Eric+freitas&background=008080&color=fff" alt="Avatar">
-        <span>Atirador Valverde °36</span>
+        <img src="https://ui-avatars.com/api/?name=V&background=008080&color=qwe" alt="Avatar">
+        <span>Valverde</span>
     </div>
 </nav>
