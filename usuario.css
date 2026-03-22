@@ -41,3 +41,26 @@ tbody tr:hover{
     cursor: pointer;
     font-size: 16px;
 }
+
+.badge {
+  display: inline-block;
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 999px; /* deixa estilo pill */
+  line-height: 1;
+  font-family: Arial, sans-serif;
+}
+
+/* Ativo */
+.badge.ativo {
+  background-color: #e6f4ea;
+  color: #1e7f43;
+}
+
+/* Inativo */
+.badge.inativo {
+  background-color: #fbe7eb;
+  color: #b42318;
+}
+

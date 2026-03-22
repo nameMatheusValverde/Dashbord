@@ -21,11 +21,11 @@
 
             <div class="header-content">
                 <div>
-                    <h2>Gestão de Usuário</h2>
-                    <p>Visualizar e gerenciar as permições de usuário do sistema</p>
+                    <h2>Gestão de categoria</h2>
+                    <p>Visualizar e gerenciamento das categorias</p>
                 </div>
 
-                <a href="cad-usuarios.php" class="btn-add">Adicionar usuario <i class="fa-solid fa-plus"></i></a>
+                <a href="cad-usuarios.php" class="btn-add">Adicionar categoria<i class="fa-solid fa-plus"></i></a>
             </div>
 
             <div class="table-responsive">
@@ -34,8 +34,6 @@
                         <tr>
                             <th>ID</th>
                             <th>Nome</th>
-                            <th>E-mail</th>
-                            <th>Acesso</th>
                             <th>Status</th>
                             <th>Ações</th>
                         </tr>
@@ -43,9 +41,7 @@
                     <tbody>
                         <tr>
                             <td>01</td>
-                            <td>Matheus Bruno</td>
-                            <td>122948@unifev.edu.br</td>
-                            <td>Adiministrador</td>
+                            <td>Escritorio</td>
                             <td><span class="badge ativo">Ativo</span></td>
                             <td>
                                 <button class="btn-icon"><i class="fa-solid fa-pen"></i></button>
@@ -54,9 +50,7 @@
                         </tr>
                         <tr>
                             <td>02</td>
-                            <td>Nelsom das oliveiras</td>
-                            <td>Nelsom.oliveiras@gmail.com</td>
-                            <td>Editor</td>
+                            <td>Escola</td>
                             <td><span class="badge ativo">Ativo</span></td>
                             <td>
                                 <button class="btn-icon"><i class="fa-solid fa-pen"></i></button>
@@ -65,10 +59,8 @@
                         </tr>
                         <tr>
                             <td>03</td>
-                            <td>Genilsom santos</td>
-                            <td>genilsomsantos.santos@gmail.com</td>
-                            <td>Usuario</td>
-                            <td><span class="badge inativo">Inativo</span></td>
+                            <td>Tecnologico</td>
+                            <td><span class="badge ativo">Ativo</span></td>
                             <td>
                                 <button class="btn-icon"><i class="fa-solid fa-pen"></i></button>
                                 <button class="btn-icon"><i class="fa-solid fa-trash-can"></i></button>
