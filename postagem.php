@@ -21,10 +21,10 @@
             <div class="header-content">
                 <div>
                     <h2>Gestão de Usuário</h2>
-                    <p>Visualizar e gerenciar as permições de usuário do sistema</p>
+                    <p>Visualizar e gerenciar as permições de postagem</p>
                 </div>
 
-                <a href="cad-usuarios.php" class="btn-add">Adicionar Projeto <i class="fa-solid fa-plus"></i></a>
+                <a href="cad-postagem.php" class="btn-add">Adicionar Projeto <i class="fa-solid fa-plus"></i></a>
             </div>
 
             <div class="table-responsive">

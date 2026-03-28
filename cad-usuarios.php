@@ -23,7 +23,7 @@
 
                 <form action="processar.php" method="POST">
                     <div class="form-group">
-                        <label for="nome">Nome completo</label>
+                        <label for="titulo">Nome completo</label>
                         <input type="text" id="nome" name="nome" placeholder="Ex: Nome Sobrenome" required>
                     </div>
 
@@ -61,7 +61,6 @@
     <footer>
         <?php include 'footer.php'; ?>
     </footer>
-
 </body>
 
 </html>

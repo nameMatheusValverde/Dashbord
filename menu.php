@@ -2,7 +2,7 @@
     <ul>
         <li><a href="index.php">Inicio</a></li>
         <li><a href="categorias.php">Categorias</a></li>
-        <li><a href="projetos.php">Projetos</a></li>
+        <li><a href="postagem.php">Postagem</a></li>
         <li><a href="usuario.php">Usuario</a></li>
     </ul>
     <div class="perfil-usuario ">
